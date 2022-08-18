@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 28px 15px 24px;
+    margin-bottom: 100px;
+
+    h3{
+        color: $red;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+
+        ul {
+            li {
+                padding: 0 16px;
+                a {
+                    text-decoration: none;
+                    color: $black;
+                    font-size: 18px;
+                    font-weight: 700;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .menu_btns {
+            display: flex;
+            margin-left: 24px;
+
+            button {
+                font-size: 16px;
+                font-weight: 700;
+                padding: 10px 12px;
+                border-radius: 20px;
+                border: none;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .login {
+                color: $white;
+                background-color: $red;
+                margin-right: 16px;
+                cursor: pointer;
+            }
+            
+            .signup {
+                color: $black;
+                background-color: $gray-light;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+nav {
+    display: flex;
+}
